@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -8,18 +9,18 @@ function Navbar() {
     </div>
     <div class="mt-4 flex items-center">
         <nav class="font-sen text-gray-800 text-white uppercase text-lg lg:flex items-center hidden">
-            <a href="/" class="py-2 px-6 flex">
+            <Link to="/" class="py-2 px-6 flex">
                 Home
-            </a>
-            <a href="/create" class="py-2 px-6 flex">
+            </Link>
+            <Link to="/create" class="py-2 px-6 flex">
                 Create a cohort
-            </a>
-            <a href="#" class="py-2 px-6 flex">
+            </Link>
+            <Link to="#" class="py-2 px-6 flex">
                 Join a cohort
-            </a>
-            <a href="#" class="py-2 px-6 flex">
+            </Link>
+            <Link to="#" class="py-2 px-6 flex">
                 Sign Up
-            </a>
+            </Link>
             
         </nav>
         <button class="lg:hidden flex flex-col ml-4">
