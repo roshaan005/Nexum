@@ -36,8 +36,8 @@ function Home() {
         </section>
         <section className='pt-5 w-full md:flex md:justify-center md:items-center h-fit'>
             <div className="flex flex-col text-center md:w-10/12 h-fit">
-                <span className="font-semibold text-white md:text-5xl md:mb-9 text-3xl pl-4 pr-5">We are providing Quality <span className="text-orange-600">Online Education</span></span>
-                <div className="gap-y-4 md:grid-cols-3 md:grid-rows-none md:pl-14 md:pr-14 flex grid grid-rows-3 grid-cols-1  w-full h-full mt-5">
+                <span className="font-semibold text-white md:text-5xl md:mb-9 mb-5 text-3xl pl-4 pr-5">We are providing Quality <span className="text-orange-600">Online Education</span></span>
+                <div className="gap-y-8 md:grid-cols-3 md:grid-rows-none md:pl-14 md:pr-14 flex grid grid-rows-3 grid-cols-1  w-full h-full mt-5">
                     <div className="w-full flex justify-center items-center h-74">
                        <Card/>
                        
@@ -65,7 +65,7 @@ function Home() {
 
         </section>
 
-        <section className='mt-10 pt-5 md:flex md:justify-center md:items-center'>
+        <section className='mt-5 pt-5 md:flex md:justify-center md:items-center'>
             <div className="flex md:grid md:grid-cols-2 flex-col pl-8 pr-6 md:w-10/12 h-auto">
                 <div className='md:mb-14 md:flex md:justify-center md:items-center md:flex-col ' >
                         <span className="text-white text-3xl md:text-5xl  font-semibold "> Working together as a single <span className="text-yellow-400">Team</span></span>

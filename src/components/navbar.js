@@ -15,10 +15,10 @@ function Navbar() {
             <Link to="/create" class="py-2 px-6 flex">
                 Create a cohort
             </Link>
-            <Link to="#" class="py-2 px-6 flex">
+            <Link to="/join" class="py-2 px-6 flex">
                 Join a cohort
             </Link>
-            <Link to="#" class="py-2 px-6 flex">
+            <Link to="signup" class="py-2 px-6 flex">
                 Sign Up
             </Link>
             
