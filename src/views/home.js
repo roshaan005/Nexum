@@ -37,7 +37,7 @@ function Home() {
         <section className='pt-5 w-full md:flex md:justify-center md:items-center h-auto'>
             <div className="flex flex-col text-center md:w-10/12 h-auto">
                 <span className="font-semibold text-white md:text-5xl md:mb-9 mb-5 text-3xl pl-4 pr-5">We are providing Quality <span className="text-orange-600">Online Education</span></span>
-                <div className="gap-y-8 md:grid-cols-3 md:grid-rows-none md:pl-14 md:pr-14 flex grid grid-rows-3 grid-cols-1  w-full h-full mt-5">
+                <div className="gap-y-8 md:grid-cols-3 md:grid-rows-none md:pl-14 md:pr-14 flex grid grid-rows-3 grid-cols-1  w-full h-auto mt-5">
                     <div className="w-full flex justify-center items-center h-74">
                        <Card/>
                        
