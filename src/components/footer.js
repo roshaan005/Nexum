@@ -24,7 +24,7 @@ function Footer() {
        </div>
 
     </div>
-    <div className='md:hidden mb-6 pb-6 flex  mt-16 flex-col text-center justify-center items-center w-full h-32 '>
+    <div className='md:hidden mb-6 pb-6 flex pl-3 pr-3 mt-20 flex-col text-center justify-center items-center w-full h-32 '>
         <span className="text-white  font-semibold text-3xl"><span className="text-3xl font-bold text-pink-500">Subscribe</span > to our newsletter</span>
         <Tag/>
 

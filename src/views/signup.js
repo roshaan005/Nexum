@@ -13,7 +13,7 @@ function Signup() {
 
 
 </div>
-<div className='mt-9 w-full flex justify-center items-center h-auto'>
+<div className='pb-14 mt-9 w-full flex justify-center items-center h-auto'>
     <Form/>
 
 </div>

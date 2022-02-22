@@ -18,7 +18,7 @@ function Join() {
         
 
         </div>
-        <div className='md:grid-rows-none md:grid-cols-3 sm:w-auto md:grid-gap-9 sm:grid-cols-3 sm:grid-rows-none  w-full mt-9 md:gap-x-5 md:w-10/12 gap-y-5 h-auto grid grid-rows-3'>
+        <div className='md:grid-rows-none md:grid-cols-3 sm:w-auto md:grid-gap-9 sm:grid-cols-3 sm:grid-rows-none  w-full mt-9 md:gap-x-5 md:w-10/12 gap-y-10 h-auto grid grid-rows-3'>
             <CourseComponent/>
             <CourseComponent/>
             <CourseComponent/>
