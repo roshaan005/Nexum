@@ -14,34 +14,34 @@ export default function Create() {
                    <span className='text-white text-3xl md:text-4xl font-bold'>Kickstart your career and earn while you do so</span>
                    <span className='text-gray-400 md:text-lg mt-10'>The MLH Fellowship is a 12 week internship alternative for aspiring software engineers. Fellows on the Software Engineering track experience what it's like to collaborate in a small group on a real project from one of our corporate or government partners.</span>
                   <div className='flex justify-center items-center'>
-                  <div className="md:w-44 mt-5 mr-3 md:mr-5 md:mt-10 bg-yellow-400 md:h-12  h-10 w-36 rounded-2xl text-white font-semibold pl-3 pr-3 flex justify-center items-center">join the discord wtf</div>
-                  <div className='md:w-44 mt-5 ml-3 md:ml-5 md:mt-10 md:h-12  bg-yellow-100 font-semibold flex items-center justify-center rounded-2xl h-10 w-36'> View more details</div>
+                  <div className="md:w-44 mt-5 mr-3 md:mr-5 md:mt-10 bg-yellow-400 md:h-12  h-10 w-36 rounded-2xl text-white font-semibold pl-2 pr-2 text-sm flex justify-center items-center">join the discord </div>
+                  <div className='md:w-44 mt-5 ml-3 md:ml-5 md:mt-10 md:h-12  bg-yellow-100 font-semibold flex items-center justify-center rounded-2xl h-10 w-36 pr-2 pl-2'> View details</div>
                       </div> 
                </div>
-               <img className = 'mt-10 w-10/12 h-60' src = {illustration}/>
+               <img className = 'mt-12 w-10/12 h-60' src = {illustration}/>
                
             </div>
             
         </section>
         <section className='md:mt-14 md:ml-10 w-11/12 h-auto'>
-            <div className="pl-5  w-10/12">
+            <div className="pl-5 w-10/12">
             <div className='flex flex-col md:grid md:grid-cols-2'>
                 <div>
-                <div className='mt-10 md:pl-20 md:pr-20 pr-5 pl-3 flex flex-col'>
+                <div className='mt-10 md:pl-20 md:pr-20 pr-3 pl-7  flex flex-col'>
                 <span className='mt-6 text-2xl text-white font-semibold'>Wanna know what it is like to create a course for us?</span>
                 <span className='mt-3 text-gray-500'>The MLH Fellowship runs year-round with batches starting every few months. We offer scheduling options that accommodate most major time zones.
 
 </span>
 
                 </div>
-                <div className='mt-10 md:pl-20 md:pr-20 pr-5 pl-3 flex flex-col'>
+                <div className='mt-10 md:pl-20 md:pr-20 pr-3 pl-7 flex flex-col'>
                 <span className='mt-6 text-2xl text-white font-semibold'>Wanna know what it is like to create a course for us?</span>
                 <span className='mt-3 text-gray-500'>The MLH Fellowship runs year-round with batches starting every few months. We offer scheduling options that accommodate most major time zones.
 
 </span>
 
                 </div>
-                <div className='mt-10 md:pl-20 md:pr-20 pr-5 pl-5 flex flex-col'>
+                <div className='mt-10 md:pl-20 md:pr-20 pr-3 pl-7 flex flex-col'>
                 <span className='mt-6 text-2xl text-white font-semibold'>Wanna know what it is like to create a course for us?</span>
                 <span className='mt-3 text-gray-500'>The MLH Fellowship runs year-round with batches starting every few months. We offer scheduling options that accommodate most major time zones.
 

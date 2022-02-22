@@ -44,11 +44,15 @@
   }
 }
 
-body{
+/* body{
   background: linear-gradient(30deg, #040613 0%, #000000 30%, #011052 70%);
     background-size: 200%;
    
   
+} */
+
+body{
+  background-color: #110f2f;
 }
 .btn-gradc {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
   .btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
@@ -177,4 +181,19 @@ body{
 }
 .container span.number span:last-child {
   top: 100%;
+}
+
+.transition{
+
+  animation: fadeIn 2s;
+  transition: visibility 2s;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
 }

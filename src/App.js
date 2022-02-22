@@ -5,6 +5,8 @@ import Navbar from './components/navbar';
 import Home from './views/home';
 import Footer from './components/footer';
 import Create from './views/Create';
+import Join from './views/Join';
+import Signup from './views/signup';
 
 function App() {
   return (
@@ -15,12 +17,12 @@ function App() {
     <Routes>
       <Route  path = '/'element={<Home/>}/>
       <Route  path = '/create' element={<Create/>}/>
-      <Route  path = '/join'element={<div>join</div>}/>
-      <Route  path = '/login'element={<div>login</div>}/>
+      <Route  path = '/join' element={<Join/>}/>
+      <Route  path = '/login'element={<Signup/>}/>
 
 
     </Routes>
-    <Footer/> 
+    {/* <Footer/>   */}
 
 
 
