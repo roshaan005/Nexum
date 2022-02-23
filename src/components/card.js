@@ -1,6 +1,6 @@
 import React from 'react'
-import picture from "../images/space-please-wait.png"
-import spaceIllustration from "../images/space-computer-monitor-with-charts-and-graphs.png"
+
+
 
 
 
