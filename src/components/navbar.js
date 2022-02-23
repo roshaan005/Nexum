@@ -1,6 +1,6 @@
 import React ,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import NavSection from '../views/navSection'
+import NavSection from './navSection'
 
 function Navbar() {
 const [toggleDisplay,setDisplay] = useState('hidden');

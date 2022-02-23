@@ -193,7 +193,47 @@ body{
   from { opacity: 0; }
     to { opacity: 1; }
 }
+
 @keyframes fadeIn {
   from { opacity: 0; }
     to { opacity: 1; }
+}
+
+.text-grad{
+  
+    background-image: linear-gradient(60deg, #E21143, #fdbc08);
+    background-clip: text;
+    color: transparent;
+  
+}
+
+.yellow-grad{
+ 
+  background-image: linear-gradient(to top, #f48119, #fb980a, #ffaf00, #f3c933, #ebcb01);
+}
+.purple-grad{
+  background-image: linear-gradient(to top, #ba07cb, #be4ad8, #c46de4, #ca8aed, #d2a6f4);
+}
+
+.blueNav{
+  background-color: #0d093b;
+}
+.blue-grad{
+  background-image: linear-gradient(to top, #354dec, #0063f0, #0076f1, #3ba7fa, #27a1ff);
+}
+.orange-text-grad{
+  background: #FFF826;
+background: -webkit-linear-gradient(to right, #FFF826 0%, #FF7E29 100%);
+background: -moz-linear-gradient(to right, #FFF826 0%, #FF7E29 100%);
+background: linear-gradient(to right, #FFF826 0%, #FF7E29 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.purple-text-grad{
+  background: #57C3CF;
+background: -webkit-linear-gradient(to right, #57C3CF 0%, #8311CF 100%);
+background: -moz-linear-gradient(to right, #57C3CF 0%, #8311CF 100%);
+background: linear-gradient(to right, #57C3CF 0%, #8311CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }

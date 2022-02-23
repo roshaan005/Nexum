@@ -1,6 +1,6 @@
 import React from 'react'
 import CourseComponent from '../components/coursesComponent'
-import NavSection from './navSection'
+import NavSection from '../components/navSection'
 
 function Join() {
   return (
@@ -19,9 +19,9 @@ function Join() {
 
         </div>
         <div className='md:grid-rows-none md:grid-cols-3 sm:w-auto md:grid-gap-9 sm:grid-cols-3 sm:grid-rows-none  w-full mt-9 md:gap-x-5 md:w-10/12 gap-y-10 h-auto grid grid-rows-3'>
-            <CourseComponent/>
-            <CourseComponent/>
-            <CourseComponent/>
+            <CourseComponent title={'Chess for beginners'} header={'Beginner Friendly'} text={'Everything you need to know about getting started with chess'}/>
+            <CourseComponent title={'Calculus for noobs'} header ={'Math'} text={'A new approach to teach calculus to those who just DO NOT get it..'} /> 
+            <CourseComponent title={'Intermediate python'} header={'Advanced'} text={"diving deeper into python while building projects"}/> 
 
         </div>
         
