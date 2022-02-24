@@ -17,13 +17,13 @@ function Form() {
                 auth,registerEmail,registerPassword
             )
             console.log('success');
-            navigate('/statusPage',{state:'success'})
+            navigate('/successpage',{state:'success'})
 
             console.log(user);
         }
         catch(err){
             console.log(err.message)
-            navigate('/statusPage',{state:'error'})
+            navigate('/errorPage',{state:'error'})
         }
     
     }
