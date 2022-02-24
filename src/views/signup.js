@@ -1,7 +1,11 @@
-import React from 'react'
-import Form from '../components/form'
+import { createUserWithEmailAndPassword } from '@firebase/auth';
+import React,{useState} from 'react'
+import Form from '../components/formSignup'
+import { auth } from '../firebase-config';
 
 function Signup() {
+
+    
   return (
     
     <section className='w-full h-auto'>
@@ -14,7 +18,7 @@ function Signup() {
 
 </div>
 <div className='pb-14 mt-9 w-full flex justify-center items-center h-auto'>
-    <Form/>
+    <Form />
 
 </div>
 

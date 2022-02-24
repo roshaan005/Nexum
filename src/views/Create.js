@@ -1,12 +1,13 @@
 import React from 'react'
 import Tag from '../components/input'
 import TimeLine from '../components/timeline'
-import illustration from "../images/space-cosmonaut-in-a-wetsuit-with-a-backpack-of-oxygen.png"
+import illustration from "../images/float.png"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import TextCard from '../components/textCard'
 import Reveal from 'react-reveal/Reveal';
 import Header from '../components/header'
+import remoteControl from '../images/remote.png'
 export default function Create() {
   return (
     
@@ -15,7 +16,7 @@ export default function Create() {
         <section className='w-full h-auto'>
             <div className='md:ml-20 md:mt-28 mt-14 w-full md:w-10/12 md:flex-row flex flex-col justify-center items-center'>
              <Fade right><Header/></Fade>
-               <img className = 'mt-12 w-10/12 h-60' src = {illustration}/>
+               <img className = 'mt-12' src = {remoteControl}/>
                
             </div>
             

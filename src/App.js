@@ -7,6 +7,9 @@ import Footer from './components/footer';
 import Create from './views/Create';
 import Join from './views/Join';
 import Signup from './views/signup';
+import LogIn from './views/logIn';
+import SuccessPage from './views/sucessPage';
+import ErrorPage from './views/ErrorPage';
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
       <Route  path = '/'element={<Home/>}/>
       <Route  path = '/create' element={<Create/>}/>
       <Route  path = '/join' element={<Join/>}/>
-      <Route  path = '/login'element={<Signup/>}/>
+      <Route  path = '/signup'element={<Signup/>}/>
+      <Route  path = '/login'element={<LogIn/>}/>
+      <Route  path = '/errorPage'element={<ErrorPage/>}/>
+      <Route  path = '/successPage'element={<SuccessPage/>}/>
 
 
     </Routes>

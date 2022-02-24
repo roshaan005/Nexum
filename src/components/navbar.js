@@ -17,7 +17,7 @@ const [toggleDisplay,setDisplay] = useState('hidden');
 
   return (
       <>
-    <div class="border-b border-gray-600 border-solid w-full  container mx-auto px-6 flex items-center justify-between">
+    <div class="sticky border-b border-gray-600 border-solid w-full  container mx-auto px-6 flex items-center justify-between">
     <div class="text-white  uppercase  dark:text-white font-black text-3xl">
         Nexum
     </div>
@@ -32,7 +32,7 @@ const [toggleDisplay,setDisplay] = useState('hidden');
             <Link to="/join" class="py-2 px-6 flex">
                 Join a cohort
             </Link>
-            <Link to="login" class="py-2 px-6 flex">
+            <Link to="signup" class="py-2 px-6 flex">
                 Sign Up
             </Link>
             
